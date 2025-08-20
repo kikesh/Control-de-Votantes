@@ -1,6 +1,6 @@
 import React from 'react';
-import { Voter } from '../types';
-import VoterCard from './VoterCard';
+import { Voter } from '../types.ts';
+import VoterCard from './VoterCard.tsx';
 
 interface VoterListProps {
   voters: Voter[];

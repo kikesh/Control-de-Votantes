@@ -1,14 +1,14 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Voter } from './types';
-import { voterService } from './services/voterService';
-import Header from './components/Header';
-import Summary from './components/Summary';
-import Statistics from './components/Statistics';
-import SearchBar from './components/SearchBar';
-import VoterList from './components/VoterList';
-import LoadingSpinner from './components/LoadingSpinner';
-import ErrorMessage from './components/ErrorMessage';
-import SyncError from './components/SyncError';
+import { Voter } from './types.ts';
+import { voterService } from './services/voterService.ts';
+import Header from './components/Header.tsx';
+import Summary from './components/Summary.tsx';
+import Statistics from './components/Statistics.tsx';
+import SearchBar from './components/SearchBar.tsx';
+import VoterList from './components/VoterList.tsx';
+import LoadingSpinner from './components/LoadingSpinner.tsx';
+import ErrorMessage from './components/ErrorMessage.tsx';
+import SyncError from './components/SyncError.tsx';
 
 export type AffiliationFilter = 'all' | 'affiliated' | 'not_affiliated';
 export type VotingFilter = 'all' | 'voted' | 'not_voted';

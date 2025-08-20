@@ -1,6 +1,6 @@
 import React from 'react';
-import { AffiliationFilter, VotingFilter } from '../App';
-import { SearchIcon } from './icons/SearchIcon';
+import { AffiliationFilter, VotingFilter } from '../App.tsx';
+import { SearchIcon } from './icons/SearchIcon.tsx';
 
 interface SearchBarProps {
   searchTerm: string;

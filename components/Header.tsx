@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { UserIcon } from './icons/UserIcon';
+import { UserIcon } from './icons/UserIcon.tsx';
 
 const Header: React.FC = () => {
   return (

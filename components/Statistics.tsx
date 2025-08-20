@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
-import { Voter } from '../types';
-import { ChartBarIcon } from './icons/ChartBarIcon';
+import { Voter } from '../types.ts';
+import { ChartBarIcon } from './icons/ChartBarIcon.tsx';
 
 interface StatisticsProps {
   voters: Voter[];
@@ -21,7 +21,7 @@ const Statistics: React.FC<StatisticsProps> = ({ voters }) => {
     const nonAffiliated = voters.filter(v => !v.afiliadoUGT);
 
     const affiliatedVoted = affiliated.filter(v => v.haVotado).length;
-    const nonAffiliatedVoted = nonAffiliated.filter(v => v.haVotado).length;
+    const nonAffiliatedVoted = nonAffiliated.filter(v => !v.haVotado).length;
 
     const affiliatedPercentage = affiliated.length > 0 ? (affiliatedVoted / affiliated.length) * 100 : 0;
     const nonAffiliatedPercentage = nonAffiliated.length > 0 ? (nonAffiliatedVoted / nonAffiliated.length) * 100 : 0;

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Voter } from '../types';
-import { CheckCircleIcon } from './icons/CheckCircleIcon';
-import { XCircleIcon } from './icons/XCircleIcon';
-import { BellIcon } from './icons/BellIcon';
-import { ChevronDownIcon } from './icons/ChevronDownIcon';
+import { Voter } from '../types.ts';
+import { CheckCircleIcon } from './icons/CheckCircleIcon.tsx';
+import { XCircleIcon } from './icons/XCircleIcon.tsx';
+import { BellIcon } from './icons/BellIcon.tsx';
+import { ChevronDownIcon } from './icons/ChevronDownIcon.tsx';
 
 interface VoterCardProps {
   voter: Voter;

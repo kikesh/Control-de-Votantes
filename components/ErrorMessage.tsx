@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExclamationTriangleIcon } from './icons/ExclamationTriangleIcon';
+import { ExclamationTriangleIcon } from './icons/ExclamationTriangleIcon.tsx';
 
 interface ErrorMessageProps {
   message: string;
@@ -17,7 +17,7 @@ const ErrorMessage: React.FC<ErrorMessageProps> = ({ message }) => {
           <div className="mt-2 text-md text-red-700 dark:text-red-200">
             <p>{message}</p>
             <p className="mt-2 text-sm">
-              Por favor, verifica que la URL en <strong>App.tsx</strong> sea correcta y que la hoja de cálculo de Google esté publicada en la web como CSV.
+              Intente recargar la página. Si el problema persiste, póngase en contacto con el soporte.
             </p>
           </div>
         </div>

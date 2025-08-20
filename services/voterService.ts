@@ -1,5 +1,5 @@
-import { Voter } from '../types';
-import { mockVoters } from '../data/mockVoters';
+import { Voter } from '../types.ts';
+import { mockVoters } from '../data/mockVoters.ts';
 
 const STORAGE_KEY = 'voters';
 const SIMULATED_DELAY = 500; // ms

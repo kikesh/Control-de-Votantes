@@ -1,4 +1,4 @@
-import { Voter } from '../types';
+import { Voter } from '../types.ts';
 
 export const mockVoters: Voter[] = [
   {

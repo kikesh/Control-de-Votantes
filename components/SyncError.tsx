@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { ExclamationTriangleIcon } from './icons/ExclamationTriangleIcon';
-import { XMarkIcon } from './icons/XMarkIcon';
+import { ExclamationTriangleIcon } from './icons/ExclamationTriangleIcon.tsx';
+import { XMarkIcon } from './icons/XMarkIcon.tsx';
 
 interface SyncErrorProps {
   message: string | null;

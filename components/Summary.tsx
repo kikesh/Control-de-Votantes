@@ -1,8 +1,8 @@
 
 import React, { useMemo } from 'react';
-import { Voter } from '../types';
-import { CheckCircleIcon } from './icons/CheckCircleIcon';
-import { XCircleIcon } from './icons/XCircleIcon';
+import { Voter } from '../types.ts';
+import { CheckCircleIcon } from './icons/CheckCircleIcon.tsx';
+import { XCircleIcon } from './icons/XCircleIcon.tsx';
 
 interface SummaryProps {
   voters: Voter[];
