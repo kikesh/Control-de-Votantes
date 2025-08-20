@@ -1,0 +1,5 @@
+{
+  "name": "Voter Control App",
+  "description": "An application to manage and track voters for a union election. It allows searching for voters, tracking their voting status, and sending reminders.",
+  "requestFramePermissions": []
+}
